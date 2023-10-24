@@ -14,7 +14,7 @@ function loginFunction() {
                 window.location.href = "incidentes.html";
             } else {
                 // Si las credenciales no son válidas, muestra un mensaje de error
-                document.getElementById("errorMessage").textContent = "Invalid credentials!";
+                document.getElementById("errorMessage").textContent = "Usuario Invalido, Vuelva A Registrarse!";
             }
         })
         // En caso de error al obtener los datos, se imprime un mensaje en la consola
