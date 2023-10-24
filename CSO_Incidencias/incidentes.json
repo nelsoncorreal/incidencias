@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "Jose Luis Rodriguez",
+        "lugar": "Oficina Central",
+        "incidente": "No esta funcionando el poste SOS 25",
+        "color": "rojo",
+        "fechaHora": "2023-10-22 14:35:12"
+    },
+    {
+        "nombre": "Nelson Correal",
+        "lugar": "Bodega",
+        "incidente": "Las luces del peaje de siveria necesitan mantenimiento",
+        "color": "amarillo",
+        "fechaHora": "2023-10-24 10:15:45"
+    }
+]

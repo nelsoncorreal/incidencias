@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/logo.ico" type="image/x-icon">
+    <title>Reportar Incidentes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/incidentes.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Reportar Incidente</h1>
+
+        <div class="form-container mt-5">
+            <input type="text" id="nombre" placeholder="Nombre" class="form-control mb-2">
+            <input type="text" id="lugar" placeholder="Lugar del Incidente" class="form-control mb-2">
+            <textarea id="incidente" rows="4" placeholder="Describe el incidente" class="form-control mb-2"></textarea>
+            <label for="color" class="mb-2">Selecciona un color de riesgo:</label>
+            <select id="color" class="form-control mb-2">
+                <option value="rojo">Rojo</option>
+                <option value="amarillo">Amarillo</option>
+                <option value="verde">Verde</option>
+            </select>
+            ...
+                <button onclick="agregarIncidente()" class="btn btn-primary mb-2">Reportar Incidente</button>
+                <a href="verincidentes.html" class="btn btn-info mb-2">Ver Incidentes</a>
+                <center><a href="login.html" class="btn btn-info mb-2">Salir</a></center>
+...
+
+        </div>
+
+        <h2 class="text-center mt-5">Incidentes Reportados</h2>
+        <div id="incidentesContainer" class="mt-5"></div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="JS/incidentes.js"></script>
+</body>
+</html>
